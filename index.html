@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./style.css?v=1" />
+    <title>Juego | Piedra, papel o tijera</title>
+  </head>
+
+  <body>
+    <section class="principal">
+      <div class="puntajes">
+        <div class="puntaje-usuario">
+          <h2>Usuario</h2>
+          <p>0</p>
+        </div>
+
+        <div class="puntaje-computador">
+          <h2>Computadora</h2>
+          <p>0</p>
+        </div>
+      </div>
+
+      <div class="tablero">
+        
+        <div class="manos">
+          <img
+            class="mano-usuario"
+            src="./assets/piedra_user.png"
+            alt="Opción elegida por usuario"
+          />
+          <img
+            class="mano-computador"
+            src="./assets/piedra_computadora.png"
+            alt="Opción elegida por computadora"
+          />
+        </div>
+        <h2 class="resultado">Seleccione una opción</h2>
+
+        <div class="opciones">
+          <button class="piedra">
+            <img
+              class="mano-usuario"
+              src="./assets/piedra_user.png"
+              alt="Elegir piedra"
+            />
+          </button>
+          <button class="papel">
+            <img
+              class="mano-usuario"
+              src="./assets/papel_user.png"
+              alt="Elegir papel"
+            />
+          </button>
+          <button class="tijera">
+            <img
+              class="mano-usuario"
+              src="./assets/tijera_user.png"
+              alt="Elegir tijera"
+            />
+          </button>
+        </div>
+      </div>
+
+      
+
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
